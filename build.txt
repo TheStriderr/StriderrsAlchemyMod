@@ -1,5 +1,5 @@
 author = Striderr
-version = 1.0
+version = 1.1.1.1
 displayName = Striderr's Alchemy Mod
 hideCode = true
 hideResources = true

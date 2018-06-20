@@ -87,7 +87,7 @@ namespace StriderrsAlchemyMod.Items
 
           recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "JunkMatter", 25);
-          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddIngredient(null, "GrayMatter", 1);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.PearlstoneBlock);
           recipe.AddRecipe();
@@ -114,7 +114,7 @@ namespace StriderrsAlchemyMod.Items
 
           recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "JunkMatter", 5);
-          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddIngredient(null, "GrayMatter", 1);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.PearlsandBlock);
           recipe.AddRecipe();
@@ -141,7 +141,7 @@ namespace StriderrsAlchemyMod.Items
 
           recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "JunkMatter", 25);
-          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddIngredient(null, "GrayMatter", 1);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.HallowSandstone);
           recipe.AddRecipe();
@@ -168,7 +168,7 @@ namespace StriderrsAlchemyMod.Items
 
           recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "JunkMatter", 5);
-          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddIngredient(null, "GrayMatter", 1);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.HallowHardenedSand);
           recipe.AddRecipe();
@@ -219,7 +219,7 @@ namespace StriderrsAlchemyMod.Items
 
           recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "JunkMatter", 25);
-          recipe.AddIngredient(null, "LightMatter", 1);
+          recipe.AddIngredient(null, "GrayMatter", 1);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.PinkIceBlock);
           recipe.AddRecipe();
@@ -246,6 +246,13 @@ namespace StriderrsAlchemyMod.Items
           recipe.AddIngredient(null, "BasicMatter", 5);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.Ebonwood);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 5);
+          recipe.AddIngredient(null, "GrayMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.Pearlwood);
           recipe.AddRecipe();
 
           recipe = new ModRecipe(mod);
@@ -430,6 +437,48 @@ namespace StriderrsAlchemyMod.Items
 
           recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "BasicMatter", 100);
+          recipe.AddIngredient(null, "GrayMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlwoodHelmet);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 150);
+          recipe.AddIngredient(null, "GrayMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlwoodBreastplate);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 125);
+          recipe.AddIngredient(null, "GrayMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlwoodGreaves);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 35);
+          recipe.AddIngredient(null, "GrayMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlwoodSword);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 40);
+          recipe.AddIngredient(null, "GrayMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlwoodHammer);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 50);
+          recipe.AddIngredient(null, "GrayMatter", 1);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PearlwoodBow);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 100);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.PalmWoodHelmet);
           recipe.AddRecipe();
@@ -561,6 +610,12 @@ namespace StriderrsAlchemyMod.Items
           recipe.AddRecipe();
 
           recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 225);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AmethystHook);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
           recipe.AddIngredient(null, "BasicMatter", 650);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.LargeAmethyst);
@@ -648,6 +703,12 @@ namespace StriderrsAlchemyMod.Items
           recipe.AddIngredient(null, "BasicMatter", 670);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.TopazRobe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "BasicMatter", 255);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TopazHook);
           recipe.AddRecipe();
 
           recipe = new ModRecipe(mod);
@@ -1566,6 +1627,522 @@ namespace StriderrsAlchemyMod.Items
           recipe.AddIngredient(null, "Mk3Matter", 500);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(ItemID.HellwingBow);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 10);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltOre);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 30);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltBar);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltHelmet);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltMask);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltHat);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltBreastplate);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 3450);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltLeggings);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 450);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltDrill);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 450);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltPickaxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltChainsaw);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltWaraxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltRepeater);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltSword);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.CobaltNaginata);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 12);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumOre);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 36);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumBar);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumMask);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumHelmet);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumHeadgear);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 864);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumBreastplate);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 648);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumLeggings);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 648);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumDrill);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 648);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumPickaxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumChainsaw);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumWaraxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumRepeater);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumSword);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 432);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.PalladiumPike);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 15);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilOre);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 60);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilBar);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilAnvil);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilHelmet);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilHat);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilHood);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilChainmail);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 900);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilGreaves);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 900);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilDrill);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 900);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilPickaxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilChainsaw);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilWaraxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilRepeater);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilSword);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.MythrilHalberd);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 17);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumOre);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 68);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumBar);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumAnvil);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumMask);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumHelmet);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumHeadgear);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1632);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumBreastplate);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1224);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumLeggings);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1224);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumDrill);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1224);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumPickaxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumChainsaw);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumWaraxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumRepeater);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumSword);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 816);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.OrichalcumHalberd);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 20);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteOre);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 100);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteBar);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteMask);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteHelmet);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteHeadgear);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 2400);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteBreastplate);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1800);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteLeggings);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1800);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteDrill);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1800);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantitePickaxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteChainsaw);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteWaraxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteRepeater);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteSword);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1200);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.AdamantiteGlaive);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 20);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumOre);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 100);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumBar);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumMask);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumHelmet);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumHeadgear);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 2600);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumBreastplate);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 2000);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumLeggings);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 2000);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumDrill);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 2000);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumPickaxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumChainsaw);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumWaraxe);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumRepeater);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumSword);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(null, "GrayMatter", 1300);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(ItemID.TitaniumTrident);
           recipe.AddRecipe();
         }
 

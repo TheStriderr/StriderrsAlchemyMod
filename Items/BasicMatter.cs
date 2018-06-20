@@ -53,6 +53,12 @@ namespace StriderrsAlchemyMod.Items
           recipe.AddRecipe();
 
           recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.Pearlwood);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 5);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
           recipe.AddIngredient(ItemID.BorealWood);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(this, 5);
@@ -222,6 +228,42 @@ namespace StriderrsAlchemyMod.Items
 
           recipe = new ModRecipe(mod);
           recipe.AddIngredient(ItemID.ShadewoodBow);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 50);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.PearlwoodHelmet);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 100);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.PearlwoodBreastplate);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 150);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.PearlwoodGreaves);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 125);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.PearlwoodSword);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 35);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.PearlwoodHammer);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 40);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.PearlwoodBow);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(this, 50);
           recipe.AddRecipe();
@@ -452,6 +494,12 @@ namespace StriderrsAlchemyMod.Items
           recipe.AddIngredient(ItemID.TopazRobe);
           recipe.AddTile(null, "AlchBench");
           recipe.SetResult(this, 670);
+          recipe.AddRecipe();
+
+          recipe = new ModRecipe(mod);
+          recipe.AddIngredient(ItemID.TopazHook);
+          recipe.AddTile(null, "AlchBench");
+          recipe.SetResult(this, 255);
           recipe.AddRecipe();
 
           recipe = new ModRecipe(mod);
